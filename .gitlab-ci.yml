@@ -1,0 +1,11 @@
+---
+image: alpine:latest
+
+stages:
+  - verify
+  - build
+  - test
+  - stage
+  - release
+
+include:
